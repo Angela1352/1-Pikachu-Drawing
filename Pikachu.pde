@@ -118,24 +118,83 @@ ellipse(700, 420, 8, 8);
 
 
 ////pikachu tail
-//fill();
-//stroke();
+//fill(142, 112, 11);
+//stroke(142, 112, 11);
+//rect(200, 480, 100, 20);
 //triangle();
-//rect();
 //triangle();
+
+
+//pikachu ears
+fill(249, 219, 104);
+stroke(0);
+strokeWeight(2);
+pushMatrix();
+rotate(0.7);
+ellipse(450, -140, 40, 160);
+popMatrix();
+
+pushMatrix();
+rotate(-0.4);
+ellipse(200, 270, 40, 160);
+popMatrix();
+
 
 
 //pikachu head & body base
 fill(249, 219, 104);
-stroke(249, 219,104);
-ellipse(350, 240, 170, 160);
-ellipse(330, 265, 135, 80);
-
-//pikachu face
-fill(0);
 stroke(0);
-ellipse(315, 214, 26, 30);
-ellipse(370, 214, 30, 32);
-fill(255);
-stroke(255);
-ellipse(318, 211,10, 12);
+ellipse(348, 315, 185, 100);
+ellipse(350, 280, 170, 160);
+stroke(249, 219, 104);
+ellipse(348, 315, 181, 96);
+
+
+//strokeWeight(0);
+//pushMatrix();
+//rotate(0.2);
+//ellipse(365, 330, 80, 250);
+//popMatrix();
+//ellipse(298, 486, 95, 95);
+//rect(320, 300, 100, 180);
+//pushMatrix();
+//rotate(0.2);
+//ellipse(470, 400, 140, 80);
+//popMatrix();
+//rect(300, 480, 100, 40);
+
+//pikachu ear layers
+pushMatrix();
+rotate(0.7);
+stroke(249, 219, 104);
+ellipse(448, -140, 24, 146);
+popMatrix();
+
+
+////pikachu ears (black area)
+//stroke(0);
+//fill(0);
+//triangle(400, 200, 430, 180, 380, 240);
+
+
+
+////pikachu face
+//fill(0);
+//stroke(0);
+//ellipse(315, 214, 26, 30);
+//ellipse(370, 214, 30, 32);
+//fill(255);
+//stroke(255);
+//ellipse(318, 211,10, 12);
+
+
+
+
+
+
+
+pushMatrix();
+
+rotate(0.5);
+
+popMatrix();
