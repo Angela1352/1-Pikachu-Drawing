@@ -113,19 +113,13 @@ fill(200);
 ellipse(700, 420, 8, 8);
 
 
-
-//------------------------------------ Not Finished
-
-
-////pikachu tail
+////-------------------------------------------- pikachu tail
 //fill(142, 112, 11);
 //stroke(142, 112, 11);
 //rect(200, 480, 100, 20);
 //triangle();
 //triangle();
 
-
-//------------------------------------ Finished
 
 //pikachu ears
 fill(249, 219, 104);
@@ -163,6 +157,7 @@ ellipse(470, 400, 140, 80);
 popMatrix();
 rect(300, 480, 100, 40);
 
+
 stroke(249, 219, 104);
 ellipse(340, 330, 150, 150);
 ellipse(388, 323, 80, 80);
@@ -177,11 +172,20 @@ rotate(0.2);
 ellipse(364, 330, 75, 240);
 popMatrix();
 
+
+//pikachu arm 2
+pushMatrix();
 stroke(0);
-line(420, 350, 400, 360);
+rotate(0.1);
+ellipse(445, 365, 50, 130);
+popMatrix();
+stroke(249, 219, 104);
+ellipse(404, 364, 40, 50);
+ellipse(416, 338, 20, 20);
 
 
 //pikachu ear layers
+strokeWeight(2);
 pushMatrix();
 rotate(0.7);
 stroke(249, 219, 104);
@@ -192,15 +196,26 @@ rotate(-0.4);
 ellipse(200, 270, 26, 150);
 popMatrix();
 
-//------------------------------------ Not Finished
-
-////pikachu ears (black area)
-//stroke(0);
-//fill(0);
-//triangle(485, 120, 465, 130, 470, 132);
 
 
-//---------------------------------- Finished (except tongue)
+//------------------------------------------pikachu ears (black area)
+stroke(0);
+fill(0);
+//triangle(450, 135, 480, 120, 465, 172);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //pikachu face
 stroke(0);
 strokeWeight(1);
@@ -274,10 +289,27 @@ stroke(0);
 line(451, 447, 446, 465);
 line(456, 448, 452, 468);
 
-//-------------------------------------- shadow, arm
 
 //pikachu arm 1
+strokeWeight(2);
 pushMatrix();
-rotate(0.1)
-ellipse(450, 340, 40, 150);
+rotate(-0.5);
+ellipse(60, 420, 50, 130);
 popMatrix();
+stroke(249, 219, 104);
+pushMatrix();
+rotate(-0.5);
+ellipse(63, 470, 35, 100);
+popMatrix();
+
+
+//shadow & line
+fill(198, 149, 84);
+stroke(198, 149, 84);
+triangle(328, 360, 365, 362, 348, 374);
+
+stroke(0);
+line(420, 350, 400, 360);
+
+
+//TO DO: Fingers, 
