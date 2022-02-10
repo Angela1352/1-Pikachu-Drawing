@@ -248,4 +248,36 @@ strokeWeight(1);
 ellipse(273, 313, 34, 34);
 ellipse(425, 315, 34, 34);
 
-//-------------------------------------- make feet, arms, shadow
+
+//pikachu feet
+fill(249, 219, 104);
+stroke(0);
+ellipse(290, 490, 70, 80);
+stroke(249, 219, 104);
+ellipse(294, 496, 75, 70);
+ellipse(266, 486, 30, 40);
+ellipse(266, 480, 30, 40);
+stroke(0);
+pushMatrix();
+rotate(-0.2);
+ellipse(190, 542, 26, 95);
+popMatrix();
+line(281, 450, 285, 467);
+line(287, 448, 291, 465);
+pushMatrix();
+rotate(0.25);
+ellipse(550, 365, 27, 90);
+popMatrix();
+stroke(249, 219, 104);
+ellipse(400, 502, 70, 30);
+stroke(0);
+line(451, 447, 446, 465);
+line(456, 448, 452, 468);
+
+//-------------------------------------- shadow, arm
+
+//pikachu arm 1
+pushMatrix();
+rotate(0.1)
+ellipse(450, 340, 40, 150);
+popMatrix();
