@@ -398,3 +398,12 @@ pushMatrix();
 rotate(-0.2);
 ellipse(230, 176, 12, 47);
 popMatrix();
+fill(255);
+stroke(255);
+ellipse(490, 110, 20, 10);
+ellipse(248, 95, 20, 6);
+
+pushMatrix();
+rotate(0.8);
+ellipse(430, -275, 20, 10);
+popMatrix();
